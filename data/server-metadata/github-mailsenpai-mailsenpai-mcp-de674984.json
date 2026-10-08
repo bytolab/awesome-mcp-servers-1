@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-mailsenpai-mailsenpai-mcp-de674984",
+  "source": {
+    "issue": 3333,
+    "projectUrl": "https://github.com/mailsenpai/mailsenpai-mcp"
+  },
+  "links": {
+    "endpoint": "https://mcp.mailsenpai.com/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "none",
+    "notes": []
+  },
+  "clients": [
+    "Claude",
+    "ChatGPT",
+    "Cursor",
+    "VS Code and other clients that support remote MCP servers with OAuth"
+  ],
+  "license": "MIT (repository files); hosted service is proprietary"
+}
